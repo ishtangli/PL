@@ -61,7 +61,7 @@ $initialDivGroup = json_encode($DIV_GROUP, JSON_HEX_TAG | JSON_HEX_APOS | JSON_H
           <option value="3"<?php if ($LOCATION===3) echo ' selected'; ?>>MSU</option>
           <option value="4"<?php if ($LOCATION===4) echo ' selected'; ?>>INFLAM</option>
           <option value="5"<?php if ($LOCATION===5) echo ' selected'; ?>>RAWMAT</option>
-          <option value="6"<?php if ($LOCATION===6) echo ' selected'; ?>>AUTOMATED + MSU</option>
+          <option value="6"<?php if ($LOCATION===6) echo ' selected'; ?>>AUTOMATED + RAWMAT</option>
           <option value="10"<?php if ($LOCATION===10) echo ' selected'; ?>>AUTOMATED/MSU/INFLAM/RAWMAT</option>
         </select>
       </label>
